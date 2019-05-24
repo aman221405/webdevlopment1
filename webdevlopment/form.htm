@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>html forms</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<form>
+		   <table>
+				<tr>
+					<td><label  for="user" >username</label></td>
+					<td><input type="text" id="user" maxlength=10></td>
+				</tr>
+				<tr>
+					<td><label  for="pass">password</label></td>
+					<td><input type="password" id="pass"></td>
+				</tr>
+				<tr>
+					<td><label  for="dfb">date of birth</label></td>
+					<td><input type="date" id="dfb" min="1998-7-1"  max="2002-5-1" ></td>
+				</tr>
+				<tr>
+					<td><label>gender</label></td>
+					<td>male :<input type="radio" name="gend" value="male"><br>female :<input type="radio" name="gend" value="female"></td>
+				</tr>
+				<tr>
+					<td><label>skills</label></td>
+					<td>HTML:<input type="checkbox" name="sk" value="html"><br>CSS:<input type="checkbox" name="sk" value="css"><br>PHP:<input type="checkbox" name="sk" value="php"></td>
+				</tr>
+				<tr>
+					<td for="country">select your country</td>
+					<td>
+						<select id="country">
+							<option>select your country</option>
+							<option>india</option>
+							<option>pakistan</option>
+							<option>england</option>
+							<option>china</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="comment">comments</label></td>
+					<td><textarea id="comment"></textarea></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="submit"></td>
+				</tr>
+		   </table>
+		</form>
+	</body>
+</html>
